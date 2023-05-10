@@ -1,0 +1,60 @@
+.login-center {
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-center .login-content {
+    display: grid;
+    width: 20%;
+    margin: auto;
+    padding: 2.5% 0;
+    gap: 0.5rem;
+}
+
+.login-center .login-content p {
+    color: gray;
+    margin-bottom: 0.7rem;
+}
+
+.login-center .login-content .wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.login-center .login-content .wrapper input {
+    padding: 0.6rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(226, 215, 215);
+}
+
+
+.login-center .login-content .wrapper label {
+    position: absolute;
+    font-size: 0.7rem;
+    top: 0;
+    left: 7px;
+    padding: 0 4px;
+    color:#865de0;
+    font-weight: 600;
+    background-color: white;
+}
+
+.login-center .login-content button {
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    background-color: #CBCBCB;  
+    color: white;
+}
+
+.login-center .login-content button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+

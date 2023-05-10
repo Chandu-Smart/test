@@ -1,0 +1,48 @@
+.center {
+    width: 100vw;
+    height: 100vh;
+}
+
+.center .content {
+    display: grid;
+    width: 20%;
+    height: 95%;
+    margin: auto;
+    gap: 0.5rem;
+    align-content: end;
+}
+
+.center .content p {
+    color: gray;
+    margin-bottom: 0.7rem;
+}
+
+.center .content button {
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 0.2px;  
+}
+
+.center .content button a{
+    text-decoration: none;
+}
+
+.center .content button .signup{
+    color: white;
+}
+
+.center .content button .login{
+    color: black;
+}
+
+.center .content button:nth-child(3) {
+    background-color: #6C25FF;
+    color: white;
+}
+
+.center .content button:nth-child(4) {
+    background-color: #CEBAFB;
+}
+

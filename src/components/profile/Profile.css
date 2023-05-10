@@ -1,0 +1,64 @@
+.profile {
+    width: 100vw;
+    height: 100vh;
+}
+
+.profile .profile-content {
+    display: grid;
+    width: 22%;
+    margin: auto;
+    padding: 2.5% 0;
+    gap: 1.5rem;
+}
+
+.profile .profile-content .account {
+    padding: 5px;
+    box-shadow: 0px 1.5px 4px -2px lightgray;
+}
+
+
+
+.profile .profile-content .profile-image-name {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    position: relative;
+    gap: 1rem;
+}
+
+.profile .profile-content .profile-image-name .profile-image {
+    width: 23%;
+    height: 4rem;
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    border:1px solid gray;
+
+}
+
+.profile .profile-content .profile-image-name .profile-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.profile .profile-content .profile-image-name .profile-image i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    color: white;
+    padding: 4px;
+    background-color: blueviolet;
+    font-size: small;
+}
+
+.profile .profile-content .profile-image-name .profile-name {
+    width: 75%;
+    display: grid;
+    font-size: small;
+}
+
+.profile .profile-content .profile-text {
+    font-size: small;
+    font-weight: 520;
+}
