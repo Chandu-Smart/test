@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Login = () => {
     return (
         <div className='login-center'>
-            
+            <form action="">
             <div className="login-content">
                 <h2>Signin to your </h2>
                 <h2>PopX account</h2>
@@ -22,6 +22,7 @@ const Login = () => {
                 <Link to={"/profile"}>Login</Link>
                 </button>
             </div>
+            </form>
         </div>
     )
 }
